@@ -1,32 +1,32 @@
 # INF231 – Listes chaînées en C
 
-Ce projet contient des implémentations en langage **C** pour manipuler différents types de listes chaînées, dans le cadre de l’exercice du **jeudi 25 septembre 2025 (Pr Melatagia)**.
+Ce projet contient des implémentations en langage c pour manipuler différents types de listes chaînées, dans le cadre de l’exercice du jeudi 25 septembre 2025 (Pr Melatagia).
 
-## ✨ Fonctionnalités
+#Fonctionnalités
 
-1. **Liste simplement chaînée**
+1. Liste simplement chaînée
    - Suppression de toutes les occurrences d’un élément
    - Insertion dans une liste triée
 
-2. **Liste doublement chaînée**
+2. Liste doublement chaînée**
    - Insertion dans une liste triée
 
-3. **Liste simplement chaînée circulaire**
+3. Liste simplement chaînée circulaire
    - Insertion en tête
    - Insertion en queue
 
-4. **Liste doublement chaînée circulaire**
+4. Liste doublement chaînée circulaire
    - Insertion en tête
    - Insertion en queue
 
-## 📂 Structure des fichiers
+#Structure des fichiers
 
-- `liste.c` : code source principal avec toutes les fonctions et un menu interactif
-- `README.md` : ce fichier explicatif
+- main.c : code source principal avec toutes les fonctions et un menu interactif
+- README.md: ce fichier explicatif
 
-## ▶️ Compilation et exécution
+#Compilation et exécution
 
 Pour compiler le programme :
 
 ```bash
-gcc liste.c -o liste
+gcc main.c -o main
